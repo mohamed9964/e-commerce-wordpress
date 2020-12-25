@@ -1,0 +1,1 @@
+`à_<?php exit; ?>a:1:{s:7:"content";s:87:"C:\xampp\htdocs\wp_myecommerce\wp-content\plugins\woocommerce/templates/loop/rating.php";}

@@ -1,0 +1,1 @@
+`à_<?php exit; ?>a:1:{s:7:"content";s:117:"C:\xampp\htdocs\wp_myecommerce\wp-content\plugins\yith-woocommerce-brands-add-on/templates//single-product-brands.php";}

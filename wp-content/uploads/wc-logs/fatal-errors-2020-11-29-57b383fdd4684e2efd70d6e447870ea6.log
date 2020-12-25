@@ -1,0 +1,45 @@
+2020-11-29T21:40:01+00:00 CRITICAL Uncaught Google_IO_Exception: OpenSSL SSL_read: Connection was reset, errno 10054 in C:\xampp\htdocs\wp_myecommerce\wp-content\plugins\super-socializer\library\Google\IO\Curl.php:109
+Stack trace:
+#0 C:\xampp\htdocs\wp_myecommerce\wp-content\plugins\super-socializer\library\Google\IO\Abstract.php(133): Google_IO_Curl->executeRequest(Object(Google_Http_Request))
+#1 C:\xampp\htdocs\wp_myecommerce\wp-content\plugins\super-socializer\library\Google\Auth\OAuth2.php(106): Google_IO_Abstract->makeRequest(Object(Google_Http_Request))
+#2 C:\xampp\htdocs\wp_myecommerce\wp-content\plugins\super-socializer\library\Google\Client.php(126): Google_Auth_OAuth2->authenticate('4/0AY0e-g5kO2Qg...')
+#3 C:\xampp\htdocs\wp_myecommerce\wp-content\plugins\super-socializer\super_socializer.php(1100): Google_Client->authenticate('4/0AY0e-g5kO2Qg...')
+#4 C:\xampp\htdocs\wp_myecommerce\wp-includes\class-wp-hook.php(287): the_champ_connect(Object(WP))
+#5 C:\xampp\htdocs\wp_myecommerce\wp-includes\class-wp-hook.php(311): WP_Hook->apply_fil in C:\xampp\htdocs\wp_myecommerce\wp-content\plugins\super-socializer\library\Google\IO\Curl.php on line 109
+
+2020-11-29T21:40:23+00:00 CRITICAL Uncaught Google_IO_Exception: Failed to connect to accounts.google.com port 443: Timed out in C:\xampp\htdocs\wp_myecommerce\wp-content\plugins\super-socializer\library\Google\IO\Curl.php:109
+Stack trace:
+#0 C:\xampp\htdocs\wp_myecommerce\wp-content\plugins\super-socializer\library\Google\IO\Abstract.php(133): Google_IO_Curl->executeRequest(Object(Google_Http_Request))
+#1 C:\xampp\htdocs\wp_myecommerce\wp-content\plugins\super-socializer\library\Google\Auth\OAuth2.php(106): Google_IO_Abstract->makeRequest(Object(Google_Http_Request))
+#2 C:\xampp\htdocs\wp_myecommerce\wp-content\plugins\super-socializer\library\Google\Client.php(126): Google_Auth_OAuth2->authenticate('4/0AY0e-g6nsecx...')
+#3 C:\xampp\htdocs\wp_myecommerce\wp-content\plugins\super-socializer\super_socializer.php(1100): Google_Client->authenticate('4/0AY0e-g6nsecx...')
+#4 C:\xampp\htdocs\wp_myecommerce\wp-includes\class-wp-hook.php(287): the_champ_connect(Object(WP))
+#5 C:\xampp\htdocs\wp_myecommerce\wp-includes\class-wp-hook.php(311): WP_Hook-> in C:\xampp\htdocs\wp_myecommerce\wp-content\plugins\super-socializer\library\Google\IO\Curl.php on line 109
+
+2020-11-29T21:44:46+00:00 CRITICAL Uncaught Google_IO_Exception: Failed to connect to accounts.google.com port 443: Timed out in C:\xampp\htdocs\wp_myecommerce\wp-content\plugins\super-socializer\library\Google\IO\Curl.php:109
+Stack trace:
+#0 C:\xampp\htdocs\wp_myecommerce\wp-content\plugins\super-socializer\library\Google\IO\Abstract.php(133): Google_IO_Curl->executeRequest(Object(Google_Http_Request))
+#1 C:\xampp\htdocs\wp_myecommerce\wp-content\plugins\super-socializer\library\Google\Auth\OAuth2.php(106): Google_IO_Abstract->makeRequest(Object(Google_Http_Request))
+#2 C:\xampp\htdocs\wp_myecommerce\wp-content\plugins\super-socializer\library\Google\Client.php(126): Google_Auth_OAuth2->authenticate('4/0AY0e-g68Ud1d...')
+#3 C:\xampp\htdocs\wp_myecommerce\wp-content\plugins\super-socializer\super_socializer.php(1100): Google_Client->authenticate('4/0AY0e-g68Ud1d...')
+#4 C:\xampp\htdocs\wp_myecommerce\wp-includes\class-wp-hook.php(287): the_champ_connect(Object(WP))
+#5 C:\xampp\htdocs\wp_myecommerce\wp-includes\class-wp-hook.php(311): WP_Hook-> in C:\xampp\htdocs\wp_myecommerce\wp-content\plugins\super-socializer\library\Google\IO\Curl.php on line 109
+
+2020-11-29T21:45:17+00:00 CRITICAL Uncaught Google_IO_Exception: Failed to connect to accounts.google.com port 443: Timed out in C:\xampp\htdocs\wp_myecommerce\wp-content\plugins\super-socializer\library\Google\IO\Curl.php:109
+Stack trace:
+#0 C:\xampp\htdocs\wp_myecommerce\wp-content\plugins\super-socializer\library\Google\IO\Abstract.php(133): Google_IO_Curl->executeRequest(Object(Google_Http_Request))
+#1 C:\xampp\htdocs\wp_myecommerce\wp-content\plugins\super-socializer\library\Google\Auth\OAuth2.php(106): Google_IO_Abstract->makeRequest(Object(Google_Http_Request))
+#2 C:\xampp\htdocs\wp_myecommerce\wp-content\plugins\super-socializer\library\Google\Client.php(126): Google_Auth_OAuth2->authenticate('4/0AY0e-g6v8Axa...')
+#3 C:\xampp\htdocs\wp_myecommerce\wp-content\plugins\super-socializer\super_socializer.php(1100): Google_Client->authenticate('4/0AY0e-g6v8Axa...')
+#4 C:\xampp\htdocs\wp_myecommerce\wp-includes\class-wp-hook.php(287): the_champ_connect(Object(WP))
+#5 C:\xampp\htdocs\wp_myecommerce\wp-includes\class-wp-hook.php(311): WP_Hook-> in C:\xampp\htdocs\wp_myecommerce\wp-content\plugins\super-socializer\library\Google\IO\Curl.php on line 109
+
+2020-11-29T21:45:40+00:00 CRITICAL Uncaught Google_IO_Exception: Failed to connect to accounts.google.com port 443: Timed out in C:\xampp\htdocs\wp_myecommerce\wp-content\plugins\super-socializer\library\Google\IO\Curl.php:109
+Stack trace:
+#0 C:\xampp\htdocs\wp_myecommerce\wp-content\plugins\super-socializer\library\Google\IO\Abstract.php(133): Google_IO_Curl->executeRequest(Object(Google_Http_Request))
+#1 C:\xampp\htdocs\wp_myecommerce\wp-content\plugins\super-socializer\library\Google\Auth\OAuth2.php(106): Google_IO_Abstract->makeRequest(Object(Google_Http_Request))
+#2 C:\xampp\htdocs\wp_myecommerce\wp-content\plugins\super-socializer\library\Google\Client.php(126): Google_Auth_OAuth2->authenticate('4/0AY0e-g4aPzRn...')
+#3 C:\xampp\htdocs\wp_myecommerce\wp-content\plugins\super-socializer\super_socializer.php(1100): Google_Client->authenticate('4/0AY0e-g4aPzRn...')
+#4 C:\xampp\htdocs\wp_myecommerce\wp-includes\class-wp-hook.php(287): the_champ_connect(Object(WP))
+#5 C:\xampp\htdocs\wp_myecommerce\wp-includes\class-wp-hook.php(311): WP_Hook-> in C:\xampp\htdocs\wp_myecommerce\wp-content\plugins\super-socializer\library\Google\IO\Curl.php on line 109
+

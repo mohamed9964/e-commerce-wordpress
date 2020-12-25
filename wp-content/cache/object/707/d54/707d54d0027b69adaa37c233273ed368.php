@@ -1,0 +1,1 @@
+`à_<?php exit; ?>a:1:{s:7:"content";s:75:"{{WP_CONTENT_DIR}}/themes/oceanwp/woocommerce/loop/thumbnail/image-swap.php";}

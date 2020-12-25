@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html class="html" dir="rtl" lang="ar">
+<head>
+	<meta charset="UTF-8">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+
+		<script type="text/javascript">function theChampLoadEvent(e){var t=window.onload;if(typeof window.onload!="function"){window.onload=e}else{window.onload=function(){t();e()}}}</script>
+		<script type="text/javascript">var theChampDefaultLang = 'ar', theChampCloseIconPath = 'http://localhost/wp_myecommerce/wp-content/plugins/super-socializer/images/close.png';</script>
+		<script> var theChampSiteUrl = 'http://localhost/wp_myecommerce', theChampVerified = 0, theChampEmailPopup = 0; </script>
+			<script> var theChampLoadingImgPath = 'http://localhost/wp_myecommerce/wp-content/plugins/super-socializer/images/ajax_loader.gif'; var theChampAjaxUrl = 'http://localhost/wp_myecommerce/wp-admin/admin-ajax.php'; var theChampRedirectionUrl = 'http://localhost/wp_myecommerce/ar/%d9%85%d8%aa%d8%ac%d8%b1/'; var theChampRegRedirectionUrl = 'http://localhost/wp_myecommerce/ar/%d9%85%d8%aa%d8%ac%d8%b1/'; </script>
+				<script> var theChampFBKey = '3817656838264829', theChampSameTabLogin = '0', theChampVerified = 0; var theChampAjaxUrl = 'http://localhost/wp_myecommerce/wp-admin/admin-ajax.php'; var theChampPopupTitle = ''; var theChampEmailPopup = 0; var theChampEmailAjaxUrl = 'http://localhost/wp_myecommerce/wp-admin/admin-ajax.php'; var theChampEmailPopupTitle = ''; var theChampEmailPopupErrorMsg = ''; var theChampEmailPopupUniqueId = ''; var theChampEmailPopupVerifyMessage = ''; var theChampSteamAuthUrl = ""; var theChampCurrentPageUrl = 'http%3A%2F%2Flocalhost%2Fwp_myecommerce%2Far%2F%25d9%2585%25d8%25aa%25d8%25ac%25d8%25b1%2F';  var heateorMSEnabled = 0, theChampTwitterAuthUrl = theChampSiteUrl + "?SuperSocializerAuth=Twitter&super_socializer_redirect_to=" + theChampCurrentPageUrl, theChampLineAuthUrl = theChampSiteUrl + "?SuperSocializerAuth=Line&super_socializer_redirect_to=" + theChampCurrentPageUrl, theChampLiveAuthUrl = theChampSiteUrl + "?SuperSocializerAuth=Live&super_socializer_redirect_to=" + theChampCurrentPageUrl, theChampFacebookAuthUrl = theChampSiteUrl + "?SuperSocializerAuth=Facebook&super_socializer_redirect_to=" + theChampCurrentPageUrl, theChampYahooAuthUrl = theChampSiteUrl + "?SuperSocializerAuth=Yahoo&super_socializer_redirect_to=" + theChampCurrentPageUrl, theChampGoogleAuthUrl = theChampSiteUrl + "?SuperSocializerAuth=Google&super_socializer_redirect_to=" + theChampCurrentPageUrl, theChampVkontakteAuthUrl = theChampSiteUrl + "?SuperSocializerAuth=Vkontakte&super_socializer_redirect_to=" + theChampCurrentPageUrl, theChampLinkedinAuthUrl = theChampSiteUrl + "?SuperSocializerAuth=Linkedin&super_socializer_redirect_to=" + theChampCurrentPageUrl, theChampInstagramAuthUrl = theChampSiteUrl + "?SuperSocializerAuth=Instagram&super_socializer_redirect_to=" + theChampCurrentPageUrl, theChampWordpressAuthUrl = theChampSiteUrl + "?SuperSocializerAuth=Wordpress&super_socializer_redirect_to=" + theChampCurrentPageUrl, theChampDribbbleAuthUrl = theChampSiteUrl + "?SuperSocializerAuth=Dribbble&super_socializer_redirect_to=" + theChampCurrentPageUrl, theChampGithubAuthUrl = theChampSiteUrl + "?SuperSocializerAuth=Github&super_socializer_redirect_to=" + theChampCurrentPageUrl, theChampSpotifyAuthUrl = theChampSiteUrl + "?SuperSocializerAuth=Spotify&super_socializer_redirect_to=" + theChampCurrentPageUrl, theChampKakaoAuthUrl = theChampSiteUrl + "?SuperSocializerAuth=Kakao&super_socializer_redirect_to=" + theChampCurrentPageUrl;</script>
+				<script> var theChampFBKey = '3817656838264829', theChampFBLang = 'en_GB', theChampFbLikeMycred = 0, theChampSsga = 0, theChampCommentNotification = 0, theChampHeateorFcmRecentComments = 0, theChampFbIosLogin = 0; </script>
+				<script> var theChampSharingAjaxUrl = 'http://localhost/wp_myecommerce/wp-admin/admin-ajax.php', heateorSsFbMessengerAPI = 'https://www.facebook.com/dialog/send?app_id=3817656838264829&display=popup&link=%encoded_post_url%&redirect_uri=%encoded_post_url%',heateorSsWhatsappShareAPI = 'web', heateorSsUrlCountFetched = [], heateorSsSharesText = 'Shares', heateorSsShareText = 'Share', theChampPluginIconPath = 'http://localhost/wp_myecommerce/wp-content/plugins/super-socializer/images/logo.png', theChampHorizontalSharingCountEnable = 0, theChampVerticalSharingCountEnable = 0, theChampSharingOffset = -10, theChampCounterOffset = -10, theChampMobileStickySharingEnabled = 0, heateorSsCopyLinkMessage = "Link copied.";
+		var heateorSsHorSharingShortUrl = "http://localhost/wp_myecommerce/ar/product/%d9%84%d8%a7%d8%a8-%d8%aa%d9%88%d8%a8-%d8%af%d9%8a%d9%84-%d8%b7%d8%b1%d8%a7%d8%b2-xps-13/";var heateorSsVerticalSharingShortUrl = "http://localhost/wp_myecommerce/ar/product/%d9%84%d8%a7%d8%a8-%d8%aa%d9%88%d8%a8-%d8%af%d9%8a%d9%84-%d8%b7%d8%b1%d8%a7%d8%b2-xps-13/";		</script>
+			<style type="text/css">.the_champ_horizontal_sharing .theChampSharing{
+					color: #fff;
+				border-width: 0px;
+		border-style: solid;
+		border-color: transparent;
+	}
+		.the_champ_horizontal_sharing .theChampTCBackground{
+		color:#666;
+	}
+		.the_champ_horizontal_sharing .theChampSharing:hover{
+				border-color: transparent;
+	}
+	.the_champ_vertical_sharing .theChampSharing{
+					color: #fff;
+				border-width: 0px;
+		border-style: solid;
+		border-color: transparent;
+	}
+		.the_champ_vertical_sharing .theChampTCBackground{
+		color:#666;
+	}
+		.the_champ_vertical_sharing .theChampSharing:hover{
+				border-color: transparent;
+	}
+	@media screen and (max-width:783px){.the_champ_vertical_sharing{display:none!important}}</style>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- This site is optimized with the Yoast SEO plugin v15.4 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>متجر - MyShop</title>
+	<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<link rel="canonical" href="http://localhost/wp_myecommerce/ar/متجر/" />
+	<meta property="og:locale" content="ar_AR" />
+	<meta property="og:locale:alternate" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="متجر - MyShop" />
+	<meta property="og:url" content="http://localhost/wp_myecommerce/ar/متجر/" />
+	<meta property="og:site_name" content="MyShop" />
+	<meta property="article:modified_time" content="2020-12-14T08:47:14+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="كُتب بواسطة">
+	<meta name="twitter:data1" content="admin">
+	<script type="application/ld+json" class="yoast-schema-graph">{
+	    "@context": "https://schema.org",
+	    "@graph": [
+	        {
+	            "@type": "WebSite",
+	            "@id": "http://localhost/wp_myecommerce/#website",
+	            "url": "http://localhost/wp_myecommerce/",
+	            "name": "MyShop",
+	            "description": "",
+	            "potentialAction": [
+	                {
+	                    "@type": "SearchAction",
+	                    "target": "http://localhost/wp_myecommerce/?s={search_term_string}",
+	                    "query-input": "required name=search_term_string"
+	                }
+	            ],
+	            "inLanguage": "ar"
+	        },
+	        {
+	            "@type": "WebPage",
+	            "@id": "http://localhost/wp_myecommerce/ar/%d9%85%d8%aa%d8%ac%d8%b1/#webpage",
+	            "url": "http://localhost/wp_myecommerce/ar/%d9%85%d8%aa%d8%ac%d8%b1/",
+	            "name": "\u0645\u062a\u062c\u0631 - MyShop",
+	            "isPartOf": {
+	                "@id": "http://localhost/wp_myecommerce/#website"
+	            },
+	            "datePublished": "2020-11-29T08:33:06+00:00",
+	            "dateModified": "2020-12-14T08:47:14+00:00",
+	            "inLanguage": "ar",
+	            "potentialAction": [
+	                {
+	                    "@type": "ReadAction",
+	                    "target": [
+	                        "http://localhost/wp_myecommerce/ar/%d9%85%d8%aa%d8%ac%d8%b1/"
+	                    ]
+	                }
+	            ]
+	        }
+	    ]
+	}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="MyShop &laquo; الخلاصة" href="http://localhost/wp_myecommerce/ar/feed/" />
+<link rel="alternate" type="application/rss+xml" title="MyShop &laquo; خلاصة التعليقات" href="http://localhost/wp_myecommerce/ar/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="خلاصة MyShop &laquo; المنتجات" href="http://localhost/wp_myecommerce/ar/shop/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/localhost\/wp_myecommerce\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.5.3"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-rtl-css'  href='http://localhost/wp_myecommerce/wp-includes/css/dist/block-library/style-rtl.min.css?ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-theme-rtl-css'  href='http://localhost/wp_myecommerce/wp-includes/css/dist/block-library/theme-rtl.min.css?ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-block-vendors-style-css'  href='http://localhost/wp_myecommerce/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/vendors-style.css?ver=3.6.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-block-style-rtl-css'  href='http://localhost/wp_myecommerce/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/style-rtl.css?ver=3.6.0' type='text/css' media='all' />
+<link rel='stylesheet' id='sticky-header-oceanwp-style-css'  href='http://localhost/wp_myecommerce/wp-content/plugins/sticky-header-oceanwp//style.css?ver=5.5.3' type='text/css' media='all' />
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='wc-gateway-ppec-frontend-css'  href='http://localhost/wp_myecommerce/wp-content/plugins/woocommerce-gateway-paypal-express-checkout/assets/css/wc-gateway-ppec-frontend.css?ver=2.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='yit-style-css'  href='http://localhost/wp_myecommerce/wp-content/plugins/yith-woocommerce-advanced-reviews/assets/css/yit-advanced-reviews.css?ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='yith_wcbm_badge_style-css'  href='http://localhost/wp_myecommerce/wp-content/plugins/yith-woocommerce-badges-management/assets/css/frontend.css?ver=1.4.7' type='text/css' media='all' />
+<style id='yith_wcbm_badge_style-inline-css' type='text/css'>
+		.yith-wcbm-badge-119		{
+		top: 0; left: 0;		}
+				.yith-wcbm-badge-118		{
+		top: 0; left: 0;		}
+		
+</style>
+<link rel='stylesheet' id='googleFontsOpenSans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A400%2C600%2C700%2C800%2C300&#038;ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='yith-wcbr-css'  href='http://localhost/wp_myecommerce/wp-content/plugins/yith-woocommerce-brands-add-on/assets/css/yith-wcbr.css?ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-colorbox-css'  href='http://localhost/wp_myecommerce/wp-content/plugins/yith-woocommerce-compare/assets/css/colorbox.css?ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='yith-wfbt-style-css'  href='http://localhost/wp_myecommerce/wp-content/plugins/yith-woocommerce-frequently-bought-together/assets/css/yith-wfbt.css?ver=5.5.3' type='text/css' media='all' />
+<style id='yith-wfbt-style-inline-css' type='text/css'>
+
+                .yith-wfbt-submit-block .yith-wfbt-submit-button {
+                        background: #222222;
+                        color: #ffffff;
+                }
+                .yith-wfbt-submit-block .yith-wfbt-submit-button:hover {
+                        background: #777777;
+                        color: #ffffff;
+                }
+</style>
+<link rel='stylesheet' id='yith_wcpb_bundle_frontend_style-css'  href='http://localhost/wp_myecommerce/wp-content/plugins/yith-woocommerce-product-bundles/assets/css/frontend.css?ver=1.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='yith_wccl_frontend-css'  href='http://localhost/wp_myecommerce/wp-content/plugins/yith-woocommerce-product-add-ons/assets/css/yith-wccl.css?ver=1.5.32' type='text/css' media='all' />
+<style id='yith_wccl_frontend-inline-css' type='text/css'>
+.select_option .yith_wccl_tooltip > span{background: ;color: ;}
+            .select_option .yith_wccl_tooltip.bottom span:after{border-bottom-color: ;}
+            .select_option .yith_wccl_tooltip.top span:after{border-top-color: ;}
+</style>
+<link rel='stylesheet' id='tinvwl-rtl-css'  href='http://localhost/wp_myecommerce/wp-content/plugins/ti-woocommerce-wishlist/assets/css/public-rtl.min.css?ver=1.22.0' type='text/css' media='all' />
+<link rel='stylesheet' id='oceanwp-woo-mini-cart-css'  href='http://localhost/wp_myecommerce/wp-content/themes/oceanwp/assets/css/woo/woo-mini-cart.min.css?ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='oceanwp-woo-mini-cart-rtl-css'  href='http://localhost/wp_myecommerce/wp-content/themes/oceanwp/assets/css/woo/woo-mini-cart-rtl.css?ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='oceanwp-woocommerce-css'  href='http://localhost/wp_myecommerce/wp-content/themes/oceanwp/assets/css/woo/woocommerce.min.css?ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='oceanwp-woo-star-font-css'  href='http://localhost/wp_myecommerce/wp-content/themes/oceanwp/assets/css/woo/woo-star-font.min.css?ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='oceanwp-woocommerce-rtl-css'  href='http://localhost/wp_myecommerce/wp-content/themes/oceanwp/assets/css/woo/woocommerce-rtl.css?ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='oceanwp-woo-quick-view-css'  href='http://localhost/wp_myecommerce/wp-content/themes/oceanwp/assets/css/woo/woo-quick-view.min.css?ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='oceanwp-wishlist-css'  href='http://localhost/wp_myecommerce/wp-content/themes/oceanwp/assets/css/woo/wishlist.min.css?ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='http://localhost/wp_myecommerce/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css?ver=5.15.1' type='text/css' media='all' />
+<style id='font-awesome-inline-css' type='text/css'>
+[data-font="FontAwesome"]:before {font-family: 'FontAwesome' !important;content: attr(data-icon) !important;speak: none !important;font-weight: normal !important;font-variant: normal !important;text-transform: none !important;line-height: 1 !important;font-style: normal !important;-webkit-font-smoothing: antialiased !important;-moz-osx-font-smoothing: grayscale !important;}
+</style>
+<link rel='stylesheet' id='simple-line-icons-css'  href='http://localhost/wp_myecommerce/wp-content/themes/oceanwp/assets/css/third/simple-line-icons.min.css?ver=2.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='magnific-popup-css'  href='http://localhost/wp_myecommerce/wp-content/themes/oceanwp/assets/css/third/magnific-popup.min.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='slick-css'  href='http://localhost/wp_myecommerce/wp-content/themes/oceanwp/assets/css/third/slick.min.css?ver=1.6.0' type='text/css' media='all' />
+<link rel='stylesheet' id='oceanwp-style-css'  href='http://localhost/wp_myecommerce/wp-content/themes/oceanwp/assets/css/style.min.css?ver=2.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='cherry-handler-css-css'  href='http://localhost/wp_myecommerce/wp-content/plugins/jetwidgets-for-elementor/cherry-framework/modules/cherry-handler/assets/css/cherry-handler-styles.min.css?ver=1.5.8' type='text/css' media='all' />
+<link rel='stylesheet' id='jet-widgets-css'  href='http://localhost/wp_myecommerce/wp-content/plugins/jetwidgets-for-elementor/assets/css/jet-widgets.css?ver=1.0.7' type='text/css' media='all' />
+<link rel='stylesheet' id='jet-widgets-rtl-css'  href='http://localhost/wp_myecommerce/wp-content/plugins/jetwidgets-for-elementor/assets/css/jet-widgets-rtl.css?ver=1.0.7' type='text/css' media='all' />
+<link rel='stylesheet' id='jet-widgets-skin-css'  href='http://localhost/wp_myecommerce/wp-content/plugins/jetwidgets-for-elementor/assets/css/jet-widgets-skin.css?ver=1.0.7' type='text/css' media='all' />
+<link rel='stylesheet' id='jet-juxtapose-css-css'  href='http://localhost/wp_myecommerce/wp-content/plugins/jetwidgets-for-elementor/assets/css/lib/juxtapose/juxtapose.css?ver=1.3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='jetwoo-widgets-for-elementor-css'  href='http://localhost/wp_myecommerce/wp-content/plugins/jetwoo-widgets-for-elementor/assets/css/jet-woo-widgets.css?ver=1.1.2' type='text/css' media='all' />
+<style id='jetwoo-widgets-for-elementor-inline-css' type='text/css'>
+@font-face {
+			font-family: "WooCommerce";
+			src: url("http://localhost/wp_myecommerce/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.eot");
+			src: url("http://localhost/wp_myecommerce/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.eot?#iefix") format("embedded-opentype"),
+				url("http://localhost/wp_myecommerce/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.woff") format("woff"),
+				url("http://localhost/wp_myecommerce/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.ttf") format("truetype"),
+				url("http://localhost/wp_myecommerce/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.svg#WooCommerce") format("svg");
+			font-weight: normal;
+			font-style: normal;
+			}
+</style>
+<link rel='stylesheet' id='wpdreams-asl-basic-css'  href='http://localhost/wp_myecommerce/wp-content/plugins/ajax-search-lite/css/style.basic.css?ver=4.8.6' type='text/css' media='all' />
+<link rel='stylesheet' id='wpdreams-ajaxsearchlite-css'  href='http://localhost/wp_myecommerce/wp-content/plugins/ajax-search-lite/css/style-curvy-blue.css?ver=4.8.6' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='http://localhost/wp_myecommerce/wp-includes/css/dashicons.min.css?ver=5.5.3' type='text/css' media='all' />
+<style id='dashicons-inline-css' type='text/css'>
+[data-font="Dashicons"]:before {font-family: 'Dashicons' !important;content: attr(data-icon) !important;speak: none !important;font-weight: normal !important;font-variant: normal !important;text-transform: none !important;line-height: 1 !important;font-style: normal !important;-webkit-font-smoothing: antialiased !important;-moz-osx-font-smoothing: grayscale !important;}
+</style>
+<link rel='stylesheet' id='thickbox-css'  href='http://localhost/wp_myecommerce/wp-includes/js/thickbox/thickbox.css?ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='the_champ_frontend_css-css'  href='http://localhost/wp_myecommerce/wp-content/plugins/super-socializer/css/front.css?ver=7.13.5' type='text/css' media='all' />
+<link rel='stylesheet' id='wcpo-frontend-css'  href='http://localhost/wp_myecommerce/wp-content/plugins/yith-pre-order-for-woocommerce/assets/css/frontend.css?ver=1.2.13' type='text/css' media='all' />
+<link rel='stylesheet' id='woo-variation-swatches-css'  href='http://localhost/wp_myecommerce/wp-content/plugins/woo-variation-swatches/assets/css/frontend.min.css?ver=1.1.2' type='text/css' media='all' />
+<style id='woo-variation-swatches-inline-css' type='text/css'>
+.variable-item:not(.radio-variable-item) { width : 30px; height : 30px; } .wvs-style-squared .button-variable-item { min-width : 30px; } .button-variable-item span { font-size : 16px; }
+</style>
+<link rel='stylesheet' id='woo-variation-swatches-theme-override-css'  href='http://localhost/wp_myecommerce/wp-content/plugins/woo-variation-swatches/assets/css/wvs-theme-override.min.css?ver=1.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='woo-variation-swatches-tooltip-css'  href='http://localhost/wp_myecommerce/wp-content/plugins/woo-variation-swatches/assets/css/frontend-tooltip.min.css?ver=1.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='woo-wallet-style-rtl-css'  href='http://localhost/wp_myecommerce/wp-content/plugins/woo-wallet/assets/css/frontend-rtl.css?ver=1.3.16' type='text/css' media='all' />
+<link rel='stylesheet' id='oe-widgets-style-css'  href='http://localhost/wp_myecommerce/wp-content/plugins/ocean-extra/assets/css/widgets.css?ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='oe-widgets-style-rtl-css'  href='http://localhost/wp_myecommerce/wp-content/plugins/ocean-extra/assets/css/rtl.css?ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='ops-product-share-style-css'  href='http://localhost/wp_myecommerce/wp-content/plugins/ocean-product-sharing/assets/css/style.min.css?ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='ops-product-share-rtl-css'  href='http://localhost/wp_myecommerce/wp-content/plugins/ocean-product-sharing/assets/css/rtl.css?ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='oss-social-share-style-css'  href='http://localhost/wp_myecommerce/wp-content/plugins/ocean-social-sharing/assets/css/style.min.css?ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='oss-social-share-rtl-css'  href='http://localhost/wp_myecommerce/wp-content/plugins/ocean-social-sharing/assets/css/rtl.css?ver=5.5.3' type='text/css' media='all' />
+<script type="text/template" id="tmpl-variation-template">
+	<div class="woocommerce-variation-description">{{{ data.variation.variation_description }}}</div>
+	<div class="woocommerce-variation-price">{{{ data.variation.price_html }}}</div>
+	<div class="woocommerce-variation-availability">{{{ data.variation.availability_html }}}</div>
+</script>
+<script type="text/template" id="tmpl-unavailable-variation-template">
+	<p>عفوًا، هذا المنتج غير متوفر. يرجى اختيار مجموعة أخرى.</p>
+</script>
+<script type='text/javascript' src='http://localhost/wp_myecommerce/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp' id='jquery-core-js'></script>
+<script type='text/javascript' src='http://localhost/wp_myecommerce/wp-content/plugins/sticky-header-oceanwp//main.js?ver=1.0.0' id='sticky-header-oceanwp-js'></script>
+<script type='text/javascript' id='attachments-script-js-extra'>
+/* <![CDATA[ */
+var attach = {"limit_multiple_upload":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://localhost/wp_myecommerce/wp-content/plugins/yith-woocommerce-advanced-reviews/assets/js/ywar-attachments.js?ver=5.5.3' id='attachments-script-js'></script>
+<link rel="https://api.w.org/" href="http://localhost/wp_myecommerce/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://localhost/wp_myecommerce/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://localhost/wp_myecommerce/wp-includes/wlwmanifest.xml" /> 
+<link rel="stylesheet" href="http://localhost/wp_myecommerce/wp-content/themes/oceanwp/rtl.css" type="text/css" media="screen" /><meta name="generator" content="WordPress 5.5.3" />
+<meta name="generator" content="WooCommerce 4.7.1" />
+<script>var sticky_header_style = "";</script><link rel="alternate" href="http://localhost/wp_myecommerce/shop/" hreflang="en" />
+<link rel="alternate" href="http://localhost/wp_myecommerce/ar/%d9%85%d8%aa%d8%ac%d8%b1/" hreflang="ar" />
+		<script>
+			document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );
+		</script>
+				<style>
+			.no-js img.lazyload { display: none; }
+			figure.wp-block-image img.lazyloading { min-width: 150px; }
+							.lazyload, .lazyloading { opacity: 0; }
+				.lazyloaded {
+					opacity: 1;
+					transition: opacity 400ms;
+					transition-delay: 0ms;
+				}
+					</style>
+			<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	                <link href='//fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+                                <style type="text/css">
+                    <!--
+                    
+            @font-face {
+                font-family: 'aslsicons2';
+                src: url('//localhost/wp_myecommerce/wp-content/plugins/ajax-search-lite/css/fonts/icons2.eot');
+                src: url('//localhost/wp_myecommerce/wp-content/plugins/ajax-search-lite/css/fonts/icons2.eot?#iefix') format('embedded-opentype'),
+                     url('//localhost/wp_myecommerce/wp-content/plugins/ajax-search-lite/css/fonts/icons2.woff2') format('woff2'),
+                     url('//localhost/wp_myecommerce/wp-content/plugins/ajax-search-lite/css/fonts/icons2.woff') format('woff'),
+                     url('//localhost/wp_myecommerce/wp-content/plugins/ajax-search-lite/css/fonts/icons2.ttf') format('truetype'),
+                     url('//localhost/wp_myecommerce/wp-content/plugins/ajax-search-lite/css/fonts/icons2.svg#icons') format('svg');
+                font-weight: normal;
+                font-style: normal;
+            }
+            div[id*='ajaxsearchlitesettings'].searchsettings .asl_option_inner label {
+                font-size: 0px !important;
+                color: rgba(0, 0, 0, 0);
+            }
+            div[id*='ajaxsearchlitesettings'].searchsettings .asl_option_inner label:after {
+                font-size: 11px !important;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 1;
+            }
+            div[id*='ajaxsearchlite'].wpdreams_asl_container {
+                width: 100%;
+                margin: 0px 0px 0px 0px;
+            }
+            div[id*='ajaxsearchliteres'].wpdreams_asl_results div.resdrg span.highlighted {
+                font-weight: bold;
+                color: rgba(217, 49, 43, 1);
+                background-color: rgba(238, 238, 238, 1);
+            }
+            div[id*='ajaxsearchliteres'].wpdreams_asl_results .results div.asl_image {
+                width: 70px;
+                height: 70px;
+            }
+            div.asl_r .results {
+                max-height: none;
+            }
+            
+                div.asl_r.asl_w.vertical .results .item::after {
+                    display: block;
+                    position: absolute;
+                    bottom: 0;
+                    content: '';
+                    height: 1px;
+                    width: 100%;
+                    background: #D8D8D8;
+                }
+                div.asl_r.asl_w.vertical .results .item.asl_last_item::after {
+                    display: none;
+                }
+                                    -->
+                </style>
+                            <script type="text/javascript">
+                if ( typeof _ASL !== "undefined" && _ASL !== null && typeof _ASL.initialize !== "undefined" )
+                    _ASL.initialize();
+            </script>
+            <!-- OceanWP CSS -->
+<style type="text/css">
+/* WooCommerce CSS */#owp-checkout-timeline .timeline-step{color:#cccccc}#owp-checkout-timeline .timeline-step{border-color:#cccccc}
+</style></head>
+
+<body class="rtl archive post-type-archive post-type-archive-product wp-embed-responsive theme-oceanwp woocommerce woocommerce-page woocommerce-no-js yith-wcbm-theme-oceanwp yith-wapo-frontend tinvwl-theme-style woo-variation-swatches wvs-theme-oceanwp wvs-theme-child-oceanwp wvs-style-squared wvs-attr-behavior-blur wvs-tooltip wvs-css wvs-show-label oceanwp-theme dropdown-mobile default-breakpoint has-sidebar content-left-sidebar has-topbar has-breadcrumbs has-grid-list account-original-style elementor-default elementor-kit-130" itemscope="itemscope" itemtype="https://schema.org/WebPage">
+
+	
+	
+	<div id="outer-wrap" class="site clr">
+
+		<a class="skip-link screen-reader-text" href="#main">Skip to content</a>
+
+		
+		<div id="wrap" class="clr">
+
+			
+
+<div id="top-bar-wrap" class="clr">
+
+	<div id="top-bar" class="clr container has-no-content">
+
+		
+		<div id="top-bar-inner" class="clr">
+
+			
+	<div id="top-bar-content" class="clr top-bar-left">
+
+		
+<div id="top-bar-nav" class="navigation clr">
+
+	<ul id="menu-navigation-bar-arabic" class="top-bar-menu dropdown-menu sf-menu"><li id="menu-item-77" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item current_page_item menu-item-77"><a href="http://localhost/wp_myecommerce/ar/%d9%85%d8%aa%d8%ac%d8%b1/" class="menu-link">متجر</a></li><li id="menu-item-78" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-78"><a href="http://localhost/wp_myecommerce/ar/%d8%b9%d8%b1%d8%a8%d8%a9/" class="menu-link">عربة</a></li><li id="menu-item-76" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-76"><a href="http://localhost/wp_myecommerce/ar/%d8%ad%d8%b3%d8%a7%d8%a8%d9%8a/" class="menu-link">حسابي</a></li><li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-80"><a href="http://localhost/wp_myecommerce/ar/%d8%b3%d9%8a%d8%a7%d8%b3%d8%a9-%d8%a7%d9%84%d8%ae%d8%b5%d9%88%d8%b5%d9%8a%d8%a9/" class="menu-link">سياسة الخصوصية</a></li><li id="menu-item-64" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-64"><a href="http://localhost/wp_myecommerce/ar/%d8%aa%d9%88%d8%a7%d8%b5%d9%84-%d9%85%d8%b9%d9%86%d8%a7/" class="menu-link">تواصل معنا</a></li><li id="menu-item-81" class="pll-parent-menu-item menu-item menu-item-type-custom menu-item-object-custom current-menu-parent menu-item-has-children dropdown menu-item-81"><a href="#pll_switcher" class="menu-link"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAPwAAAD8BR5eJ4AAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAEOSURBVCiRpZHNSsNQEEbPTXOtoc1NmyhFK6ioCLXioq4UdOtz+Ia+g+7cFQURhYClikRtqGkTm8SFbkrSWHC23w9nZgTnnZR/jFYkiiRFJMX9+izBSRbZ6ks0BPcrEZ42np+g7SuOqiFi/xUOXji1Qtq+mo/ACSW2GvJsN9DkElEy4UH2qdeGOCOJV/4qJmhqJgsqpLNzzHLFpqEcTlpnKCugqZl/E/SiAU5osWkZGHINfxSwrgS3I4teNAA57ReZN6Zw+GlTW/XY3t0A4PHO5e2pzrX5DmK6IHtEAV3jAzXew70UuFeC6rhFtzLIhHNXAAhLCRfBDaXyjxwHE2I9Jz2rACDWBTHxrys/DPAN4YpPXyWy3BoAAAAASUVORK5CYII=" title="العربية (ar)" alt="العربية" width="16" height="11" style="width: 16px; height: 11px;" /><span style="margin-right:0.3em;">العربية</span> <span class="nav-arrow fa fa-angle-down"></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-81-en" class="lang-item lang-item-23 lang-item-en lang-item-first menu-item menu-item-type-custom menu-item-object-custom menu-item-81-en"><a href="http://localhost/wp_myecommerce/shop/" hreflang="en-US" lang="en-US" class="menu-link"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHzSURBVHjaYkxOP8IAB//+Mfz7w8Dwi4HhP5CcJb/n/7evb16/APL/gRFQDiAAw3JuAgAIBEDQ/iswEERjGzBQLEru97ll0g0+3HvqMn1SpqlqGsZMsZsIe0SICA5gt5a/AGIEarCPtFh+6N/ffwxA9OvP/7//QYwff/6fZahmePeB4dNHhi+fGb59Y4zyvHHmCEAAAW3YDzQYaJJ93a+vX79aVf58//69fvEPlpIfnz59+vDhw7t37968efP3b/SXL59OnjwIEEAsDP+YgY53b2b89++/awvLn98MDi2cVxl+/vl6mituCtBghi9f/v/48e/XL86krj9XzwEEEENy8g6gu22rfn78+NGs5Ofr16+ZC58+fvyYwX8rxOxXr169fPny+fPn1//93bJlBUAAsQADZMEBxj9/GBxb2P/9+S/R8u3vzxuyaX8ZHv3j8/YGms3w8ycQARmi2eE37t4ACCDGR4/uSkrKAS35B3TT////wADOgLOBIaXIyjBlwxKAAGKRXjCB0SOEaeu+/y9fMnz4AHQxCP348R/o+l+//sMZQBNLEvif3AcIIMZbty7Ly6t9ZmXl+fXj/38GoHH/UcGfP79//BBiYHjy9+8/oUkNAAHEwt1V/vI/KBY/QSISFqM/GBg+MzB8A6PfYC5EFiDAABqgW776MP0rAAAAAElFTkSuQmCC" title="English (en_US)" alt="English" width="16" height="11" style="width: 16px; height: 11px;" /><span style="margin-right:0.3em;">English</span></a></li>	<li id="menu-item-81-ar" class="lang-item lang-item-28 lang-item-ar current-lang menu-item menu-item-type-custom menu-item-object-custom menu-item-81-ar"><a href="http://localhost/wp_myecommerce/ar/%d9%85%d8%aa%d8%ac%d8%b1/" hreflang="ar" lang="ar" class="menu-link"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAPwAAAD8BR5eJ4AAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAEOSURBVCiRpZHNSsNQEEbPTXOtoc1NmyhFK6ioCLXioq4UdOtz+Ia+g+7cFQURhYClikRtqGkTm8SFbkrSWHC23w9nZgTnnZR/jFYkiiRFJMX9+izBSRbZ6ks0BPcrEZ42np+g7SuOqiFi/xUOXji1Qtq+mo/ACSW2GvJsN9DkElEy4UH2qdeGOCOJV/4qJmhqJgsqpLNzzHLFpqEcTlpnKCugqZl/E/SiAU5osWkZGHINfxSwrgS3I4teNAA57ReZN6Zw+GlTW/XY3t0A4PHO5e2pzrX5DmK6IHtEAV3jAzXew70UuFeC6rhFtzLIhHNXAAhLCRfBDaXyjxwHE2I9Jz2rACDWBTHxrys/DPAN4YpPXyWy3BoAAAAASUVORK5CYII=" title="العربية (ar)" alt="العربية" width="16" height="11" style="width: 16px; height: 11px;" /><span style="margin-right:0.3em;">العربية</span></a></li></ul>
+</li></ul>
+</div>
+
+		
+			
+	</div><!-- #top-bar-content -->
+
+
+
+		</div><!-- #top-bar-inner -->
+
+		
+	</div><!-- #top-bar -->
+
+</div><!-- #top-bar-wrap -->
+
+
+			
+<header id="site-header" class="minimal-header clr" data-height="74" itemscope="itemscope" itemtype="https://schema.org/WPHeader" role="banner">
+
+	
+					
+			<div id="site-header-inner" class="clr container">
+
+				
+				
+
+<div id="site-logo" class="clr" itemscope itemtype="https://schema.org/Brand" >
+
+	
+	<div id="site-logo-inner" class="clr">
+
+						<a href="http://localhost/wp_myecommerce/ar/" rel="home" class="site-title site-logo-text" >MyShop</a>
+				
+	</div><!-- #site-logo-inner -->
+
+	
+	
+</div><!-- #site-logo -->
+
+
+				
+			</div><!-- #site-header-inner -->
+
+			
+<div id="mobile-dropdown" class="clr" >
+
+	<nav class="clr" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
+
+		<div class="menu"><li class="page_item page-item-72"><a href="http://localhost/wp_myecommerce/ar/%d8%a7%d9%84%d8%ae%d8%b1%d9%88%d8%ac/">الخروج</a></li>
+<li class="page_item page-item-60"><a href="http://localhost/wp_myecommerce/ar/%d8%aa%d9%88%d8%a7%d8%b5%d9%84-%d9%85%d8%b9%d9%86%d8%a7/">تواصل معنا</a></li>
+<li class="page_item page-item-73"><a href="http://localhost/wp_myecommerce/ar/%d8%ad%d8%b3%d8%a7%d8%a8%d9%8a/">حسابي</a></li>
+<li class="page_item page-item-74"><a href="http://localhost/wp_myecommerce/ar/%d8%b3%d9%8a%d8%a7%d8%b3%d8%a9-%d8%a7%d9%84%d8%ae%d8%b5%d9%88%d8%b5%d9%8a%d8%a9/">سياسة الخصوصية</a></li>
+<li class="page_item page-item-71"><a href="http://localhost/wp_myecommerce/ar/%d8%b9%d8%b1%d8%a8%d8%a9/">عربة</a></li>
+<li class="page_item page-item-75 current_page_item"><a href="http://localhost/wp_myecommerce/ar/%d9%85%d8%aa%d8%ac%d8%b1/">متجر</a></li>
+</div>
+<ul id="menu-navigation-bar-arabic-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item current_page_item menu-item-77"><a href="http://localhost/wp_myecommerce/ar/%d9%85%d8%aa%d8%ac%d8%b1/" aria-current="page">متجر</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-78"><a href="http://localhost/wp_myecommerce/ar/%d8%b9%d8%b1%d8%a8%d8%a9/">عربة</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-76"><a href="http://localhost/wp_myecommerce/ar/%d8%ad%d8%b3%d8%a7%d8%a8%d9%8a/">حسابي</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-80"><a href="http://localhost/wp_myecommerce/ar/%d8%b3%d9%8a%d8%a7%d8%b3%d8%a9-%d8%a7%d9%84%d8%ae%d8%b5%d9%88%d8%b5%d9%8a%d8%a9/">سياسة الخصوصية</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-64"><a href="http://localhost/wp_myecommerce/ar/%d8%aa%d9%88%d8%a7%d8%b5%d9%84-%d9%85%d8%b9%d9%86%d8%a7/">تواصل معنا</a></li>
+<li class="pll-parent-menu-item menu-item menu-item-type-custom menu-item-object-custom current-menu-parent menu-item-has-children menu-item-81"><a href="#pll_switcher"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAPwAAAD8BR5eJ4AAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAEOSURBVCiRpZHNSsNQEEbPTXOtoc1NmyhFK6ioCLXioq4UdOtz+Ia+g+7cFQURhYClikRtqGkTm8SFbkrSWHC23w9nZgTnnZR/jFYkiiRFJMX9+izBSRbZ6ks0BPcrEZ42np+g7SuOqiFi/xUOXji1Qtq+mo/ACSW2GvJsN9DkElEy4UH2qdeGOCOJV/4qJmhqJgsqpLNzzHLFpqEcTlpnKCugqZl/E/SiAU5osWkZGHINfxSwrgS3I4teNAA57ReZN6Zw+GlTW/XY3t0A4PHO5e2pzrX5DmK6IHtEAV3jAzXew70UuFeC6rhFtzLIhHNXAAhLCRfBDaXyjxwHE2I9Jz2rACDWBTHxrys/DPAN4YpPXyWy3BoAAAAASUVORK5CYII=" title="العربية (ar)" alt="العربية" width="16" height="11" style="width: 16px; height: 11px;" /><span style="margin-right:0.3em;">العربية</span></a>
+<ul class="sub-menu">
+	<li class="lang-item lang-item-23 lang-item-en lang-item-first menu-item menu-item-type-custom menu-item-object-custom menu-item-81-en"><a href="http://localhost/wp_myecommerce/shop/" hreflang="en-US" lang="en-US"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHzSURBVHjaYkxOP8IAB//+Mfz7w8Dwi4HhP5CcJb/n/7evb16/APL/gRFQDiAAw3JuAgAIBEDQ/iswEERjGzBQLEru97ll0g0+3HvqMn1SpqlqGsZMsZsIe0SICA5gt5a/AGIEarCPtFh+6N/ffwxA9OvP/7//QYwff/6fZahmePeB4dNHhi+fGb59Y4zyvHHmCEAAAW3YDzQYaJJ93a+vX79aVf58//69fvEPlpIfnz59+vDhw7t37968efP3b/SXL59OnjwIEEAsDP+YgY53b2b89++/awvLn98MDi2cVxl+/vl6mituCtBghi9f/v/48e/XL86krj9XzwEEEENy8g6gu22rfn78+NGs5Ofr16+ZC58+fvyYwX8rxOxXr169fPny+fPn1//93bJlBUAAsQADZMEBxj9/GBxb2P/9+S/R8u3vzxuyaX8ZHv3j8/YGms3w8ycQARmi2eE37t4ACCDGR4/uSkrKAS35B3TT////wADOgLOBIaXIyjBlwxKAAGKRXjCB0SOEaeu+/y9fMnz4AHQxCP348R/o+l+//sMZQBNLEvif3AcIIMZbty7Ly6t9ZmXl+fXj/38GoHH/UcGfP79//BBiYHjy9+8/oUkNAAHEwt1V/vI/KBY/QSISFqM/GBg+MzB8A6PfYC5EFiDAABqgW776MP0rAAAAAElFTkSuQmCC" title="English (en_US)" alt="English" width="16" height="11" style="width: 16px; height: 11px;" /><span style="margin-right:0.3em;">English</span></a></li>
+	<li class="lang-item lang-item-28 lang-item-ar current-lang menu-item menu-item-type-custom menu-item-object-custom menu-item-81-ar"><a href="http://localhost/wp_myecommerce/ar/%d9%85%d8%aa%d8%ac%d8%b1/" hreflang="ar" lang="ar"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAPwAAAD8BR5eJ4AAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAEOSURBVCiRpZHNSsNQEEbPTXOtoc1NmyhFK6ioCLXioq4UdOtz+Ia+g+7cFQURhYClikRtqGkTm8SFbkrSWHC23w9nZgTnnZR/jFYkiiRFJMX9+izBSRbZ6ks0BPcrEZ42np+g7SuOqiFi/xUOXji1Qtq+mo/ACSW2GvJsN9DkElEy4UH2qdeGOCOJV/4qJmhqJgsqpLNzzHLFpqEcTlpnKCugqZl/E/SiAU5osWkZGHINfxSwrgS3I4teNAA57ReZN6Zw+GlTW/XY3t0A4PHO5e2pzrX5DmK6IHtEAV3jAzXew70UuFeC6rhFtzLIhHNXAAhLCRfBDaXyjxwHE2I9Jz2rACDWBTHxrys/DPAN4YpPXyWy3BoAAAAASUVORK5CYII=" title="العربية (ar)" alt="العربية" width="16" height="11" style="width: 16px; height: 11px;" /><span style="margin-right:0.3em;">العربية</span></a></li>
+</ul>
+</li>
+</ul>
+<div id="mobile-menu-search" class="clr">
+	<form method="get" action="http://localhost/wp_myecommerce/ar/" class="mobile-searchform" role="search" aria-label="Search for:">
+		<label for="ocean-mobile-search1">
+			<input type="search" name="s" autocomplete="off" placeholder="Search" />
+			<button type="submit" class="searchform-submit" aria-label="Submit search">
+				<i class="icon-magnifier" aria-hidden="true"></i>
+			</button>
+					</label>
+		<input type="hidden" name="lang" value="ar" />	</form>
+</div><!-- .mobile-menu-search -->
+
+	</nav>
+
+</div>
+
+			
+			
+		
+		
+</header><!-- #site-header -->
+
+
+			
+			<main id="main" class="site-main clr"  role="main">
+
+				
+
+<header class="page-header">
+
+	
+	<div class="container clr page-header-inner">
+
+		
+			<h1 class="page-header-title clr" itemprop="headline">المنتجات</h1>
+
+			
+	<div class="clr page-subheading">
+		<p>هنا يمكنك إضافة منتجات جديدة لمتجرك</p>
+	</div><!-- .page-subheading -->
+
+
+		
+		<nav aria-label="Breadcrumbs" class="site-breadcrumbs clr position-" itemprop="breadcrumb"><ol class="trail-items" itemscope itemtype="http://schema.org/BreadcrumbList"><meta name="numberOfItems" content="2" /><meta name="itemListOrder" content="Ascending" /><li class="trail-item trail-begin" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="http://localhost/wp_myecommerce/ar" rel="home" aria-label="Home" itemtype="https://schema.org/Thing" itemprop="item"><span itemprop="name"><span class="icon-home" aria-hidden="true"></span><span class="breadcrumb-home has-icon">Home</span></span></a><span class="breadcrumb-sep">></span><meta content="1" itemprop="position" /></li><li class="trail-item trail-end" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="http://localhost/wp_myecommerce/ar/shop/" itemtype="https://schema.org/Thing" itemprop="item"><span itemprop="name">المنتجات</span></a><meta content="2" itemprop="position" /></li></ol></nav>
+	</div><!-- .page-header-inner -->
+
+	
+	
+</header><!-- .page-header -->
+
+
+
+<div id="content-wrap" class="container clr">
+
+	
+	<div id="primary" class="content-area clr">
+
+		
+		<div id="content" class="clr site-content">
+
+			
+			<article class="entry-content entry clr">
+<header class="woocommerce-products-header">
+	
+	</header>
+<div class="woocommerce-notices-wrapper"></div><div class="oceanwp-toolbar clr"><nav class="oceanwp-grid-list"><a href="#" id="oceanwp-grid" title="Grid view" class="active grid-btn"><span class="icon-grid" aria-hidden="true"></span></a><a href="#" id="oceanwp-list" title="List view" class="list-btn"><span class="icon-list" aria-hidden="true"></span></a></nav><form class="woocommerce-ordering" method="get">
+	<select name="orderby" class="orderby" aria-label="نظام المتجر">
+					<option value="menu_order"  selected='selected'>الترتيب الافتراضي</option>
+					<option value="popularity" >ترتيب حسب الشهرة</option>
+					<option value="rating" >ترتيب حسب معدل التقييم</option>
+					<option value="date" >ترتيب حسب الأحدث</option>
+					<option value="price" >ترتيب حسب: الأدنى سعراً للأعلى</option>
+					<option value="price-desc" >ترتيب حسب: الأعلى سعراً للأدنى</option>
+			</select>
+	<input type="hidden" name="paged" value="1" />
+	</form>
+
+<ul class="result-count">
+	<li class="view-title">View:</li>
+	<li><a class="view-first active" href="http://localhost/wp_myecommerce/ar/%d9%85%d8%aa%d8%ac%d8%b1/?products-per-page=12">12</a></li>
+	<li><a class="view-second" href="http://localhost/wp_myecommerce/ar/%d9%85%d8%aa%d8%ac%d8%b1/?products-per-page=24">24</a></li>
+	<li><a class="view-all" href="http://localhost/wp_myecommerce/ar/%d9%85%d8%aa%d8%ac%d8%b1/?products-per-page=all">All</a></li>
+</ul>
+</div>
+<ul class="products oceanwp-row clr grid">
+<li class="entry has-media has-product-nav col span_1_of_3 owp-content-center owp-thumbs-layout-horizontal owp-btn-normal owp-tabs-layout-horizontal has-no-thumbnails product type-product post-124 status-publish first instock product_cat-laptop has-post-thumbnail sale taxable shipping-taxable purchasable product-type-yith_bundle">
+	<div class="product-inner clr">
+	<div class="woo-entry-image clr">
+		<a href="http://localhost/wp_myecommerce/ar/product/%d9%84%d8%a7%d8%a8-%d8%aa%d9%88%d8%a8-%d8%af%d9%8a%d9%84-%d8%b7%d8%b1%d8%a7%d8%b2-xps-13/" class="woocommerce-LoopProduct-link"><img width="274" height="184"   alt="لاب توب ديل طراز XPS 13" loading="lazy" data-src="http://localhost/wp_myecommerce/wp-content/uploads/2020/12/dell.jpg" class="woo-entry-image-main lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="274" height="184" src="http://localhost/wp_myecommerce/wp-content/uploads/2020/12/dell.jpg" class="woo-entry-image-main" alt="لاب توب ديل طراز XPS 13" loading="lazy" /></noscript></a><a href="#" id="product_id_124" class="owp-quick-view" data-product_id="124"><i class="icon-eye" aria-hidden="true"></i>Quick View</a>	</div><!-- .woo-entry-image -->
+
+<span class="on-woo-wallet-cashback" style="display:none;"></span><div class="tinv-wraper woocommerce tinv-wishlist tinvwl-after-add-to-cart tinvwl-loop-button-wrapper"
+	 data-product_id="124">
+	<div class="tinv-wishlist-clear"></div><a role="button" aria-label="Add to Wishlist" class="tinvwl_add_to_wishlist_button tinvwl-icon-heart  tinvwl-position-after tinvwl-loop" data-tinv-wl-list="[]" data-tinv-wl-product="124" data-tinv-wl-productvariation="0" data-tinv-wl-productvariations="[0]" data-tinv-wl-producttype="yith_bundle" data-tinv-wl-action="add"><span class="tinvwl_add_to_wishlist-text">Add to Wishlist</span></a><div class="tinv-wishlist-clear"></div>		<div class="tinvwl-tooltip">Add to Wishlist</div>
+</div>
+<ul class="woo-entry-inner clr"><li class="image-wrap">
+	<span class="onsale">تخفيض!</span>
+	
+	<div class="woo-entry-image clr">
+		<a href="http://localhost/wp_myecommerce/ar/product/%d9%84%d8%a7%d8%a8-%d8%aa%d9%88%d8%a8-%d8%af%d9%8a%d9%84-%d8%b7%d8%b1%d8%a7%d8%b2-xps-13/" class="woocommerce-LoopProduct-link"><img width="274" height="184"   alt="لاب توب ديل طراز XPS 13" loading="lazy" itemprop="image" data-srcset="http://localhost/wp_myecommerce/wp-content/uploads/2020/12/dell.jpg 274w, http://localhost/wp_myecommerce/wp-content/uploads/2020/12/dell-45x30.jpg 45w, http://localhost/wp_myecommerce/wp-content/uploads/2020/12/dell-89x60.jpg 89w, http://localhost/wp_myecommerce/wp-content/uploads/2020/12/dell-134x90.jpg 134w"  data-src="http://localhost/wp_myecommerce/wp-content/uploads/2020/12/dell.jpg" data-sizes="(max-width: 274px) 100vw, 274px" class="woo-entry-image-main lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="274" height="184" src="http://localhost/wp_myecommerce/wp-content/uploads/2020/12/dell.jpg" class="woo-entry-image-main" alt="لاب توب ديل طراز XPS 13" loading="lazy" itemprop="image" srcset="http://localhost/wp_myecommerce/wp-content/uploads/2020/12/dell.jpg 274w, http://localhost/wp_myecommerce/wp-content/uploads/2020/12/dell-45x30.jpg 45w, http://localhost/wp_myecommerce/wp-content/uploads/2020/12/dell-89x60.jpg 89w, http://localhost/wp_myecommerce/wp-content/uploads/2020/12/dell-134x90.jpg 134w" sizes="(max-width: 274px) 100vw, 274px" /></noscript></a><a href="#" id="product_id_124" class="owp-quick-view" data-product_id="124"><i class="icon-eye" aria-hidden="true"></i>Quick View</a>	</div><!-- .woo-entry-image -->
+
+</li><li class="category"><a href="http://localhost/wp_myecommerce/product-category/laptop/" rel="tag">Laptop</a></li><li class="title"><h2><a href="http://localhost/wp_myecommerce/ar/product/%d9%84%d8%a7%d8%a8-%d8%aa%d9%88%d8%a8-%d8%af%d9%8a%d9%84-%d8%b7%d8%b1%d8%a7%d8%b2-xps-13/">لاب توب ديل طراز XPS 13</a></h2></li><li class="price-wrap">
+	<span class="price"><del><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>8,000.00</bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>7,600.00</bdi></span></ins></span>
+</li><li class="rating"></li><li class="woo-desc">قدمت شركة ديل عدة اصدارت من طراز XPS 13 من Dell ولكنها عملت على تحسين تلك الطرازات الحديثة وقامت بإضافة العديد من الامكانيات الجديدة لها ، من تلك التحسنات الجديدة انها قامت بوضع معالج رائع للاصدارات الجديدة وهو معالج Intel Core i7 من الجيل العاشر ، وبالنسبة لهذا الاصدار الجديد الذي نتحدث عنه فهو يمتلك شاشة عرض رائعة ذات جودة&hellip;</li><li class="btn-wrap clr"><a href="/wp_myecommerce/ar/%d9%85%d8%aa%d8%ac%d8%b1/?add-to-cart=124" data-quantity="1" class="button product_type_yith_bundle add_to_cart_button" data-product_id="124" data-product_sku="" aria-label="إقرأ المزيد عن &ldquo;لاب توب ديل طراز XPS 13&rdquo;" rel="nofollow">إضافة إلى السلة</a></li></ul></div><!-- .product-inner .clr --></li>
+<li class="entry has-media has-product-nav col span_1_of_3 owp-content-center owp-thumbs-layout-horizontal owp-btn-normal owp-tabs-layout-horizontal has-no-thumbnails product type-product post-122 status-publish instock product_cat-phones product_cat-phones-tablets product_cat-smart-phones has-post-thumbnail taxable shipping-taxable purchasable product-type-simple">
+	<div class="product-inner clr">
+	<div class="woo-entry-image clr">
+		<a href="http://localhost/wp_myecommerce/ar/product/huawei-2/" class="woocommerce-LoopProduct-link"><img width="199" height="253"   alt="هوواوي" loading="lazy" data-src="http://localhost/wp_myecommerce/wp-content/uploads/2020/12/huawei.jpg" class="woo-entry-image-main lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="199" height="253" src="http://localhost/wp_myecommerce/wp-content/uploads/2020/12/huawei.jpg" class="woo-entry-image-main" alt="هوواوي" loading="lazy" /></noscript></a><a href="#" id="product_id_122" class="owp-quick-view" data-product_id="122"><i class="icon-eye" aria-hidden="true"></i>Quick View</a>	</div><!-- .woo-entry-image -->
+
+<span class="on-woo-wallet-cashback" style="display:none;"></span><div class="tinv-wraper woocommerce tinv-wishlist tinvwl-after-add-to-cart tinvwl-loop-button-wrapper"
+	 data-product_id="122">
+	<div class="tinv-wishlist-clear"></div><a role="button" aria-label="Add to Wishlist" class="tinvwl_add_to_wishlist_button tinvwl-icon-heart  tinvwl-position-after tinvwl-loop" data-tinv-wl-list="[]" data-tinv-wl-product="122" data-tinv-wl-productvariation="0" data-tinv-wl-productvariations="[0]" data-tinv-wl-producttype="simple" data-tinv-wl-action="add"><span class="tinvwl_add_to_wishlist-text">Add to Wishlist</span></a><div class="tinv-wishlist-clear"></div>		<div class="tinvwl-tooltip">Add to Wishlist</div>
+</div>
+<ul class="woo-entry-inner clr"><li class="image-wrap">
+	<div class="woo-entry-image clr">
+		<a href="http://localhost/wp_myecommerce/ar/product/huawei-2/" class="woocommerce-LoopProduct-link"><img width="199" height="253"   alt="هوواوي" loading="lazy" itemprop="image" data-srcset="http://localhost/wp_myecommerce/wp-content/uploads/2020/12/huawei.jpg 199w, http://localhost/wp_myecommerce/wp-content/uploads/2020/12/huawei-24x30.jpg 24w, http://localhost/wp_myecommerce/wp-content/uploads/2020/12/huawei-47x60.jpg 47w, http://localhost/wp_myecommerce/wp-content/uploads/2020/12/huawei-71x90.jpg 71w"  data-src="http://localhost/wp_myecommerce/wp-content/uploads/2020/12/huawei.jpg" data-sizes="(max-width: 199px) 100vw, 199px" class="woo-entry-image-main lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="199" height="253" src="http://localhost/wp_myecommerce/wp-content/uploads/2020/12/huawei.jpg" class="woo-entry-image-main" alt="هوواوي" loading="lazy" itemprop="image" srcset="http://localhost/wp_myecommerce/wp-content/uploads/2020/12/huawei.jpg 199w, http://localhost/wp_myecommerce/wp-content/uploads/2020/12/huawei-24x30.jpg 24w, http://localhost/wp_myecommerce/wp-content/uploads/2020/12/huawei-47x60.jpg 47w, http://localhost/wp_myecommerce/wp-content/uploads/2020/12/huawei-71x90.jpg 71w" sizes="(max-width: 199px) 100vw, 199px" /></noscript></a><a href="#" id="product_id_122" class="owp-quick-view" data-product_id="122"><i class="icon-eye" aria-hidden="true"></i>Quick View</a>	</div><!-- .woo-entry-image -->
+
+</li><li class="category"><a href="http://localhost/wp_myecommerce/product-category/phones-tablets/phones/" rel="tag">Phones</a>, <a href="http://localhost/wp_myecommerce/product-category/phones-tablets/" rel="tag">PHONES &amp; TABLETS</a>, <a href="http://localhost/wp_myecommerce/product-category/phones-tablets/phones/smart-phones/" rel="tag">Smart Phone's</a></li><li class="title"><h2><a href="http://localhost/wp_myecommerce/ar/product/huawei-2/">هوواوي</a></h2></li><li class="price-wrap">
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>5,000.00</bdi></span></span>
+</li><li class="rating"></li><li class="woo-desc">الحجم: 6.3 بوصة *بفضل تصميم الشاشة بزوايا مدورة، يبلغ طول الشاشة القطري 6.3 بوصة عند قياسه وفقًا للمستطيل القياسي (مساحة العرض الفعلية أصغر قليلاً). اللون: 16.7 مليون لون النوع: شاشة LCD بشرائح الترانزستور الرقيقة (IPS) الدقة: دقة عالية (HD)+‏1600x720 بكسل *بفضل تصميم الشاشة بزوايا مدورة، تبلغ دقة الشاشة 1600x720 بكسل عند قياسها وفقًا للمستطيل القياسي (مساحة العرض الفعلية أصغر قليلاً).&hellip;</li><li class="btn-wrap clr"><a href="?add-to-cart=122" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="122" data-product_sku="" aria-label="إضافة &quot;هوواوي&quot; إلى سلة مشترياتك" rel="nofollow">إضافة إلى السلة</a></li></ul></div><!-- .product-inner .clr --></li>
+</ul>
+
+			</article><!-- #post -->
+
+			
+		</div><!-- #content -->
+
+		
+	</div><!-- #primary -->
+
+	
+
+<aside id="right-sidebar" class="sidebar-container widget-area sidebar-primary" itemscope="itemscope" itemtype="https://schema.org/WPSideBar" role="complementary" aria-label="Primary Sidebar">
+
+	
+	<div id="right-sidebar-inner" class="clr">
+
+		
+	</div><!-- #sidebar-inner -->
+
+	
+</aside><!-- #right-sidebar -->
+
+
+</div><!-- #content-wrap -->
+
+
+	</main><!-- #main -->
+
+	
+	
+	
+		
+<footer id="footer" class="site-footer" itemscope="itemscope" itemtype="https://schema.org/WPFooter" role="contentinfo">
+
+	
+	<div id="footer-inner" class="clr">
+
+		
+
+<div id="footer-widgets" class="oceanwp-row clr">
+
+	
+	<div class="footer-widgets-inner container">
+
+					<div class="footer-box span_1_of_4 col col-1">
+							</div><!-- .footer-one-box -->
+
+							<div class="footer-box span_1_of_4 col col-2">
+									</div><!-- .footer-one-box -->
+				
+							<div class="footer-box span_1_of_4 col col-3 ">
+									</div><!-- .footer-one-box -->
+				
+							<div class="footer-box span_1_of_4 col col-4">
+									</div><!-- .footer-box -->
+				
+			
+	</div><!-- .container -->
+
+	
+</div><!-- #footer-widgets -->
+
+
+
+<div id="footer-bottom" class="clr no-footer-nav">
+
+	
+	<div id="footer-bottom-inner" class="container clr">
+
+		
+		
+			<div id="copyright" class="clr" role="contentinfo">
+				Copyright - OceanWP Theme by Nick			</div><!-- #copyright -->
+
+			
+	</div><!-- #footer-bottom-inner -->
+
+	
+</div><!-- #footer-bottom -->
+
+
+	</div><!-- #footer-inner -->
+
+	
+</footer><!-- #footer -->
+
+	
+	
+</div><!-- #wrap -->
+
+
+</div><!-- #outer-wrap -->
+
+
+
+<a id="scroll-top" class="scroll-top-right" href="#"><span class="fa fa-angle-up" aria-label="Scroll to the top of the page"></span></a>
+
+
+
+
+
+<div id="owp-qv-wrap">
+	<div class="owp-qv-container">
+		<div class="owp-qv-content-wrap">
+			<div class="owp-qv-content-inner">
+				<a href="#" class="owp-qv-close" aria-label="Close quick preview">×</a>
+				<div id="owp-qv-content" class="woocommerce single-product"></div>
+			</div>
+		</div>
+	</div>
+	<div class="owp-qv-overlay"></div>
+</div>
+<div id="oceanwp-cart-sidebar-wrap"><div class="oceanwp-cart-sidebar"><a href="#" class="oceanwp-cart-close">×</a><p class="owp-cart-title">Cart</p><div class="divider"></div><div class="owp-mini-cart"><div class="widget woocommerce widget_shopping_cart"><div class="widget_shopping_cart_content"></div></div></div></div><div class="oceanwp-cart-sidebar-overlay"></div></div>	<div id="fb-root"></div>
+		<script type="text/javascript">
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})()
+	</script>
+	<script type='text/javascript' id='cherry-js-core-js-extra'>
+/* <![CDATA[ */
+var wp_load_style = ["wp-block-library.css","wp-block-library-theme.css","wc-block-style.css","sticky-header-oceanwp-style.css","woocommerce-inline.css","wc-gateway-ppec-frontend.css","yit-style.css","yith_wcbm_badge_style.css","googleFontsOpenSans.css","yith-wcbr.css","jquery-colorbox.css","yith-wfbt-style.css","yith_wcpb_bundle_frontend_style.css","yith_wccl_frontend.css","tinvwl.css","oceanwp-woo-mini-cart.css","oceanwp-woo-mini-cart-rtl.css","oceanwp-woocommerce.css","oceanwp-woo-star-font.css","oceanwp-woocommerce-rtl.css","oceanwp-woo-quick-view.css","oceanwp-wishlist.css","font-awesome.css","simple-line-icons.css","magnific-popup.css","slick.css","oceanwp-style.css","cherry-handler-css.css","jet-widgets.css","jet-widgets-rtl.css","jet-widgets-skin.css","jet-juxtapose-css.css","jetwoo-widgets-for-elementor.css","wpdreams-asl-basic.css","wpdreams-ajaxsearchlite.css","thickbox.css","the_champ_frontend_css.css","wcpo-frontend.css","woo-variation-swatches.css","woo-variation-swatches-theme-override.css","woo-variation-swatches-tooltip.css","woo-wallet-style.css","oe-widgets-style.css","oe-widgets-style-rtl.css","ops-product-share-style.css","ops-product-share-rtl.css","oss-social-share-style.css","oss-social-share-rtl.css"];
+var wp_load_script = ["cherry-js-core.js","sticky-header-oceanwp.js","wc-add-to-cart.js","woocommerce.js","wc-cart-fragments.js","smush-lazy-load.js","attachments-script.js","yith-woocompare-main.js","jquery-colorbox.js","wc-add-to-cart-variation.js","yith_wccl_frontend.js","tinvwl.js","oceanwp-woo-quick-view.js","flexslider.js","oceanwp-woo-mini-cart.js","imagesloaded.js","oceanwp-woocommerce.js","magnific-popup.js","oceanwp-lightbox.js","oceanwp-main.js","cherry-handler-js.js","jquery.js","wpdreams-ajaxsearchlite.js","the_champ_ss_general_scripts.js","the_champ_sl_common.js","thickbox.js","the_champ_fb_sdk.js","the_champ_share_counts.js","wc-gateway-ppec-order-review.js","woo-variation-swatches.js","ops-product-share-script.js","oss-social-share-script.js","sticky-kit.js","osa-script.js"];
+var cherry_ajax = "304d2aadac";
+var ui_init_object = {"auto_init":"false","targets":[]};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://localhost/wp_myecommerce/wp-content/plugins/jetwidgets-for-elementor/cherry-framework/modules/cherry-js-core/assets/js/min/cherry-js-core.min.js?ver=1.5.8' id='cherry-js-core-js'></script>
+<script type='text/javascript' src='http://localhost/wp_myecommerce/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70' id='jquery-blockui-js'></script>
+<script type='text/javascript' id='wc-add-to-cart-js-extra'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp_myecommerce\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/wp_myecommerce\/ar\/?wc-ajax=%%endpoint%%","i18n_view_cart":"\u0639\u0631\u0636 \u0627\u0644\u0633\u0644\u0629","cart_url":"http:\/\/localhost\/wp_myecommerce\/ar\/%d8%b9%d8%b1%d8%a8%d8%a9\/","is_cart":"","cart_redirect_after_add":"yes"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://localhost/wp_myecommerce/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=4.7.1' id='wc-add-to-cart-js'></script>
+<script type='text/javascript' src='http://localhost/wp_myecommerce/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4' id='js-cookie-js'></script>
+<script type='text/javascript' id='woocommerce-js-extra'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp_myecommerce\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/wp_myecommerce\/ar\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://localhost/wp_myecommerce/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=4.7.1' id='woocommerce-js'></script>
+<script type='text/javascript' src='http://localhost/wp_myecommerce/wp-content/plugins/woocommerce/assets/js/jquery-cookie/jquery.cookie.min.js?ver=1.4.1' id='jquery-cookie-js'></script>
+<script type='text/javascript' id='wc-cart-fragments-js-extra'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp_myecommerce\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/wp_myecommerce\/ar\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_bb5d8db84986e00b6c16b5475289560e","fragment_name":"wc_fragments_bb5d8db84986e00b6c16b5475289560e","request_timeout":"5000"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://localhost/wp_myecommerce/wp-content/plugins/woo-poly-integration/public/js/Cart.min.js?ver=1.4.3' id='wc-cart-fragments-js'></script>
+<script type='text/javascript' src='http://localhost/wp_myecommerce/wp-content/plugins/wp-smushit/app/assets/js/smush-lazy-load.min.js?ver=3.8.2' id='smush-lazy-load-js'></script>
+<script type='text/javascript' id='yith-woocompare-main-js-extra'>
+/* <![CDATA[ */
+var yith_woocompare = {"ajaxurl":"\/wp_myecommerce\/ar\/?wc-ajax=%%endpoint%%","actionadd":"yith-woocompare-add-product","actionremove":"yith-woocompare-remove-product","actionview":"yith-woocompare-view-table","actionreload":"yith-woocompare-reload-product","added_label":"Added","table_title":"Product Comparison","auto_open":"yes","loader":"http:\/\/localhost\/wp_myecommerce\/wp-content\/plugins\/yith-woocommerce-compare\/assets\/images\/loader.gif","button_text":"Compare","cookie_name":"yith_woocompare_list","close_label":"Close"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://localhost/wp_myecommerce/wp-content/plugins/yith-woocommerce-compare/assets/js/woocompare.min.js?ver=2.4.3' id='yith-woocompare-main-js'></script>
+<script type='text/javascript' src='http://localhost/wp_myecommerce/wp-content/plugins/yith-woocommerce-compare/assets/js/jquery.colorbox-min.js?ver=1.4.21' id='jquery-colorbox-js'></script>
+<script type='text/javascript' src='http://localhost/wp_myecommerce/wp-includes/js/underscore.min.js?ver=1.8.3' id='underscore-js'></script>
+<script type='text/javascript' id='wp-util-js-extra'>
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"\/wp_myecommerce\/wp-admin\/admin-ajax.php"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://localhost/wp_myecommerce/wp-includes/js/wp-util.min.js?ver=5.5.3' id='wp-util-js'></script>
+<script type='text/javascript' id='wc-add-to-cart-variation-js-extra'>
+/* <![CDATA[ */
+var wc_add_to_cart_variation_params = {"wc_ajax_url":"\/wp_myecommerce\/ar\/?wc-ajax=%%endpoint%%","i18n_no_matching_variations_text":"\u0644\u0644\u0623\u0633\u0641 \u0644\u0627 \u062a\u0648\u062c\u062f \u0645\u0646\u062a\u062c\u0627\u062a \u062a\u0637\u0627\u0628\u0642 \u0627\u062e\u062a\u064a\u0627\u0631\u0627\u062a\u0643. \u0627\u0644\u0631\u062c\u0627\u0621 \u0627\u062e\u062a\u064a\u0627\u0631 \u0645\u062c\u0645\u0648\u0639\u0629 \u0645\u062e\u062a\u0644\u0641\u0629.","i18n_make_a_selection_text":"\u0627\u0644\u0631\u062c\u0627\u0621 \u062a\u062d\u062f\u064a\u062f \u0628\u0639\u0636 \u062e\u064a\u0627\u0631\u0627\u062a \u0627\u0644\u0645\u0646\u062a\u062c \u0642\u0628\u0644 \u0625\u0636\u0627\u0641\u0629 \u0647\u0630\u0627 \u0627\u0644\u0645\u0646\u062a\u062c \u0625\u0644\u0649 \u0633\u0644\u0629 \u0645\u0634\u062a\u0631\u064a\u0627\u062a\u0643.","i18n_unavailable_text":"\u0639\u0641\u0648\u064b\u0627\u060c \u0647\u0630\u0627 \u0627\u0644\u0645\u0646\u062a\u062c \u063a\u064a\u0631 \u0645\u062a\u0648\u0641\u0631. \u064a\u0631\u062c\u0649 \u0627\u062e\u062a\u064a\u0627\u0631 \u0645\u062c\u0645\u0648\u0639\u0629 \u0623\u062e\u0631\u0649."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://localhost/wp_myecommerce/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js?ver=4.7.1' id='wc-add-to-cart-variation-js'></script>
+<script type='text/javascript' id='wc-add-to-cart-variation-js-after'>
+jQuery(function ($) { $(document).on('show_variation', function (event, variation, purchasable) { if(variation.cashback_amount) { $('.on-woo-wallet-cashback').show(); $('.on-woo-wallet-cashback').html(variation.cashback_html); } else { $('.on-woo-wallet-cashback').hide(); } }) });
+</script>
+<script type='text/javascript' id='yith_wccl_frontend-js-extra'>
+/* <![CDATA[ */
+var yith_wccl_general = {"ajaxurl":"\/wp_myecommerce\/ar\/?wc-ajax=%%endpoint%%","actionAddCart":"yith_wccl_add_to_cart","actionVariationGallery":"yith_wccl_variation_gallery","cart_redirect":"1","cart_url":"http:\/\/localhost\/wp_myecommerce\/ar\/%d8%b9%d8%b1%d8%a8%d8%a9\/","view_cart":"View Cart","tooltip":"","tooltip_pos":"","tooltip_ani":"","description":"","add_cart":"","grey_out":"","image_hover":"","wrapper_container_shop":"li.product","image_selector":"img.wp-post-image, img.attachment-woocommerce_thumbnail","enable_handle_variation_gallery":"1","plugin_compatibility_selectors":"yith-wcan-ajax-filtered yith_infs_adding_elem initialized.owl.carousel post-load ajax-tab-loaded","single_gallery_selector":".woocommerce-product-gallery"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://localhost/wp_myecommerce/wp-content/plugins/yith-woocommerce-product-add-ons/assets/js/yith-wccl.min.js?ver=1.5.32' id='yith_wccl_frontend-js'></script>
+<script type='text/javascript' id='tinvwl-js-extra'>
+/* <![CDATA[ */
+var tinvwl_add_to_wishlist = {"text_create":"Create New","text_already_in":"\"{product_name}\" already in Wishlist","simple_flow":"","hide_zero_counter":"","i18n_make_a_selection_text":"Please select some product options before adding this product to your wishlist.","tinvwl_break_submit":"No items or actions are selected.","tinvwl_clipboard":"Copied!","allow_parent_variable":"","block_ajax_wishlists_data":"","update_wishlists_data":"","hash_key":"ti_wishlist_data_bb5d8db84986e00b6c16b5475289560e","nonce":"eb3c592c28","rest_root":"http:\/\/localhost\/wp_myecommerce\/wp-json\/","plugin_url":"http:\/\/localhost\/wp_myecommerce\/wp-content\/plugins\/ti-woocommerce-wishlist\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://localhost/wp_myecommerce/wp-content/plugins/ti-woocommerce-wishlist/assets/js/public.min.js?ver=1.22.0' id='tinvwl-js'></script>
+<script type='text/javascript' src='http://localhost/wp_myecommerce/wp-content/themes/oceanwp/assets/js/third/woo/woo-quick-view.min.js?ver=2.0.0' id='oceanwp-woo-quick-view-js'></script>
+<script type='text/javascript' src='http://localhost/wp_myecommerce/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js?ver=2.7.2' id='flexslider-js'></script>
+<script type='text/javascript' src='http://localhost/wp_myecommerce/wp-content/themes/oceanwp/assets/js/third/woo/woo-mini-cart.min.js?ver=2.0.0' id='oceanwp-woo-mini-cart-js'></script>
+<script type='text/javascript' src='http://localhost/wp_myecommerce/wp-includes/js/imagesloaded.min.js?ver=4.1.4' id='imagesloaded-js'></script>
+<script type='text/javascript' src='http://localhost/wp_myecommerce/wp-content/themes/oceanwp/assets/js/third/woo/woo-scripts.min.js?ver=2.0.0' id='oceanwp-woocommerce-js'></script>
+<script type='text/javascript' src='http://localhost/wp_myecommerce/wp-content/themes/oceanwp/assets/js/third/magnific-popup.min.js?ver=2.0.0' id='magnific-popup-js'></script>
+<script type='text/javascript' src='http://localhost/wp_myecommerce/wp-content/themes/oceanwp/assets/js/third/lightbox.min.js?ver=2.0.0' id='oceanwp-lightbox-js'></script>
+<script type='text/javascript' id='oceanwp-main-js-extra'>
+/* <![CDATA[ */
+var oceanwpLocalize = {"isRTL":"1","menuSearchStyle":"drop_down","sidrSource":null,"sidrDisplace":"1","sidrSide":"left","sidrDropdownTarget":"link","verticalHeaderTarget":"link","customSelects":".woocommerce-ordering .orderby, #dropdown_product_cat, .widget_categories select, .widget_archive select, .single-product .variations_form .variations select","wooCartStyle":"drop_down","ajax_url":"http:\/\/localhost\/wp_myecommerce\/wp-admin\/admin-ajax.php","cart_url":"http:\/\/localhost\/wp_myecommerce\/ar\/%d8%b9%d8%b1%d8%a8%d8%a9\/","cart_redirect_after_add":"yes","view_cart":"View cart","floating_bar":"on","grouped_text":"View products","stickElements":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://localhost/wp_myecommerce/wp-content/themes/oceanwp/assets/js/main.min.js?ver=2.0.0' id='oceanwp-main-js'></script>
+<script type='text/javascript' id='cherry-handler-js-js-extra'>
+/* <![CDATA[ */
+var jw_subscribe_form_ajax = {"action":"jw_subscribe_form_ajax","nonce":"e3a811e690","type":"POST","data_type":"json","is_public":"true","sys_messages":{"invalid_base_data":"Unable to process the request without nonce or server error","no_right":"No right for this action","invalid_nonce":"Stop CHEATING!!!","access_is_allowed":"Access is allowed","wait_processing":"Please wait, processing the previous request"}};
+var cherryHandlerAjaxUrl = {"ajax_url":"http:\/\/localhost\/wp_myecommerce\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://localhost/wp_myecommerce/wp-content/plugins/jetwidgets-for-elementor/cherry-framework/modules/cherry-handler/assets/js/min/cherry-handler.min.js?ver=1.5.8' id='cherry-handler-js-js'></script>
+<script type='text/javascript' id='wpdreams-ajaxsearchlite-js-extra'>
+/* <![CDATA[ */
+var ajaxsearchlite = {"ajaxurl":"http:\/\/localhost\/wp_myecommerce\/wp-admin\/admin-ajax.php","backend_ajaxurl":"http:\/\/localhost\/wp_myecommerce\/wp-admin\/admin-ajax.php","js_scope":"jQuery"};
+var ASL = {"ajaxurl":"http:\/\/localhost\/wp_myecommerce\/wp-admin\/admin-ajax.php","backend_ajaxurl":"http:\/\/localhost\/wp_myecommerce\/wp-admin\/admin-ajax.php","js_scope":"jQuery","detect_ajax":"0","scrollbar":"1","js_retain_popstate":"0","version":"4743","fix_duplicates":"1","analytics":{"method":0,"tracking_id":"","string":"?ajax_search={asl_term}","event":{"focus":{"active":1,"action":"focus","category":"ASL","label":"Input focus","value":"1"},"search_start":{"active":0,"action":"search_start","category":"ASL","label":"Phrase: {phrase}","value":"1"},"search_end":{"active":1,"action":"search_end","category":"ASL","label":"{phrase} | {results_count}","value":"1"},"magnifier":{"active":1,"action":"magnifier","category":"ASL","label":"Magnifier clicked","value":"1"},"return":{"active":1,"action":"return","category":"ASL","label":"Return button pressed","value":"1"},"facet_change":{"active":0,"action":"facet_change","category":"ASL","label":"{option_label} | {option_value}","value":"1"},"result_click":{"active":1,"action":"result_click","category":"ASL","label":"{result_title} | {result_url}","value":"1"}}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://localhost/wp_myecommerce/wp-content/plugins/ajax-search-lite/js/min/jquery.ajaxsearchlite.min.js?ver=4.8.6' id='wpdreams-ajaxsearchlite-js'></script>
+<script type='text/javascript' src='http://localhost/wp_myecommerce/wp-content/plugins/super-socializer/js/front/social_login/general.js?ver=7.13.5' id='the_champ_ss_general_scripts-js'></script>
+<script type='text/javascript' src='http://localhost/wp_myecommerce/wp-content/plugins/super-socializer/js/front/social_login/common.js?ver=7.13.5' id='the_champ_sl_common-js'></script>
+<script type='text/javascript' id='thickbox-js-extra'>
+/* <![CDATA[ */
+var thickboxL10n = {"next":"\u0627\u0644\u062a\u0627\u0644\u064a >","prev":"< \u0627\u0644\u0633\u0627\u0628\u0642","image":"\u0635\u0648\u0631\u0629","of":"\u0645\u0646","close":"\u0625\u063a\u0644\u0627\u0642","noiframes":"\u0647\u0630\u0647 \u0627\u0644\u0645\u064a\u0632\u0629 \u062a\u062a\u0637\u0644\u0628 \u062e\u0627\u0635\u064a\u0629 \u0627\u0644\u0625\u0637\u0627\u0631\u0627\u062a \u0627\u0644\u0645\u0636\u0645\u0646\u0629 (inline frames). \u0625\u0645\u0627 \u0623\u0646 \u0627\u0644\u062e\u0627\u0635\u064a\u0629 \u0645\u0639\u0637\u0644\u0629 \u0623\u0648 \u0623\u0646 \u0627\u0644\u0645\u062a\u0635\u0641\u062d \u0644\u0627 \u064a\u062f\u0639\u0645 \u0647\u0630\u0647 \u0627\u0644\u062e\u0627\u0635\u064a\u0629.","loadingAnimation":"http:\/\/localhost\/wp_myecommerce\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://localhost/wp_myecommerce/wp-includes/js/thickbox/thickbox.js?ver=3.1-20121105' id='thickbox-js'></script>
+<script type='text/javascript' src='http://localhost/wp_myecommerce/wp-content/plugins/super-socializer/js/front/facebook/sdk.js?ver=7.13.5' id='the_champ_fb_sdk-js'></script>
+<script type='text/javascript' src='http://localhost/wp_myecommerce/wp-content/plugins/super-socializer/js/front/sharing/sharing.js?ver=7.13.5' id='the_champ_share_counts-js'></script>
+<script type='text/javascript' src='http://localhost/wp_myecommerce/wp-content/plugins/woocommerce-gateway-paypal-express-checkout/assets/js/wc-gateway-ppec-order-review.js?ver=2.1.1' id='wc-gateway-ppec-order-review-js'></script>
+<script type='text/javascript' id='woo-variation-swatches-js-extra'>
+/* <![CDATA[ */
+var woo_variation_swatches_options = {"is_product_page":"","show_variation_label":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://localhost/wp_myecommerce/wp-content/plugins/woo-variation-swatches/assets/js/frontend.min.js?ver=1.1.2' id='woo-variation-swatches-js'></script>
+<script type='text/javascript' src='http://localhost/wp_myecommerce/wp-content/plugins/ocean-product-sharing/assets/js/social.min.js?ver=1.1.0' id='ops-product-share-script-js'></script>
+<script type='text/javascript' src='http://localhost/wp_myecommerce/wp-content/plugins/ocean-social-sharing/assets/js/social.min.js?ver=1.1.0' id='oss-social-share-script-js'></script>
+<script type='text/javascript' src='http://localhost/wp_myecommerce/wp-content/plugins/ocean-stick-anything/assets/js/sticky-kit.min.js?ver=1.0.4' id='sticky-kit-js'></script>
+<script type='text/javascript' src='http://localhost/wp_myecommerce/wp-content/plugins/ocean-stick-anything/assets/js/main.min.js?ver=1.0.4' id='osa-script-js'></script>
+<script type='text/javascript' src='http://localhost/wp_myecommerce/wp-includes/js/wp-embed.min.js?ver=5.5.3' id='wp-embed-js'></script>
+<!--[if lt IE 9]>
+<script type='text/javascript' src='http://localhost/wp_myecommerce/wp-content/themes/oceanwp/assets/js/third/html5.min.js?ver=2.0.0' id='html5shiv-js'></script>
+<![endif]-->
+<script type='text/javascript' data-namespace="paypal_sdk" data-partner-attribution-id="WooThemes_EC" src='https://www.paypal.com/sdk/js?client-id=sb&#038;intent=capture&#038;locale=ar_EG&#038;components=buttons,funding-eligibility,messages&#038;commit=false&#038;currency=USD' id='paypal-checkout-sdk-js'></script>
+<script type='text/javascript' id='wc-gateway-ppec-smart-payment-buttons-js-extra'>
+/* <![CDATA[ */
+var wc_ppec_context = {"use_checkout_js":"","environment":"sandbox","locale":"ar_EG","page":null,"button_color":"gold","button_shape":"rect","button_label":"paypal","start_checkout_nonce":"c2bf516cb5","start_checkout_url":"\/wp_myecommerce\/ar\/?wc-ajax=wc_ppec_start_checkout","return_url":"http:\/\/localhost\/wp_myecommerce\/ar\/%d8%a7%d9%84%d8%ae%d8%b1%d9%88%d8%ac\/","cancel_url":"","generic_error_msg":"An error occurred while processing your PayPal payment. Please contact the store owner for assistance.","mini_cart_button_layout":"vertical","mini_cart_button_size":"responsive","mini_cart_button_label":"paypal","mini_cart_disallowed_methods":["CREDIT","PAYLATER"]};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://localhost/wp_myecommerce/wp-content/plugins/woocommerce-gateway-paypal-express-checkout/assets/js/wc-gateway-ppec-smart-payment-buttons.js?ver=2.1.1' id='wc-gateway-ppec-smart-payment-buttons-js'></script>
+<script type="text/javascript">(function() {
+				var expirationDate = new Date();
+				expirationDate.setTime( expirationDate.getTime() + 31536000 * 1000 );
+				document.cookie = "pll_language=ar; expires=" + expirationDate.toUTCString() + "; path=/wp_myecommerce/; SameSite=Lax";
+			}());</script></body>
+</html>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Object Caching 38/507 objects using disk
+Page Caching using disk: enhanced 
+Database Caching 7/190 queries in 7.353 seconds using disk (Request-wide modification query)
+
+Served from: localhost @ 2020-12-19 14:41:43 by W3 Total Cache
+-->

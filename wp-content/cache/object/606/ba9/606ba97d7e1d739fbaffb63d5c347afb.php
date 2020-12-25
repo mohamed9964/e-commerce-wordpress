@@ -1,0 +1,1 @@
+_à_<?php exit; ?>a:1:{s:7:"content";s:72:"{{WP_CONTENT_DIR}}/themes/oceanwp/woocommerce/content-single-product.php";}

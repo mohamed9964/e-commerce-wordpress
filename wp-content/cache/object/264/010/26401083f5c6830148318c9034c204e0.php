@@ -1,0 +1,1 @@
+D~à_<?php exit; ?>a:1:{s:7:"content";s:122:"C:\xampp\htdocs\wp_myecommerce\wp-content\plugins\yith-woocommerce-frequently-bought-together/templates/yith-wfbt-form.php";}
